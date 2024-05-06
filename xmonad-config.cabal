@@ -8,6 +8,6 @@ maintainer:         xmonad@nest.cx
 
 executable xmonad-config
   main-is:            xmonad.hs
-  build-depends:      base, containers, xmonad
+  build-depends:      base, containers, xmonad, xmonad-contrib
   hs-source-dirs:     .
   default-language:   Haskell2010
